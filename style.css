@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	
+	width: 700px;
+	margin:  0 auto;
+}
+body{
+	background: rgb(167,171,221);
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+h1{
+	font-size: 32px;
+	font-weight: bolder;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+img{
+	width: 200px;
+	border-radius:  50%;
+}
+
+.button{
+	background: rgb(181,152,233);
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-top: 15px ;
+	margin-bottom: 10px;
+
+}
+
+.button:hover{
+	background: rgb(167,171,221);
+	color: black;
+}
+
+.card-blue{
+	background: rgb(184,191,226);
+	border-radius: 10px;
+	padding: 24px;
+	margin: 24px auto;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+
+
+}
+
+p{
+	
+	font-size: 18px;
+	width: 600px;
+	text-align: center;
+	margin-top: 10px ;
+	margin-bottom: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+ol{
+	display: inline-flex;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+
+}
+
+i{
+	font-size: 48px;
+	padding: 5x;
+	margin: 5px 18px;
+	color: rgb(181,152,233);
+
+}
+
+i:hover{
+	color: rgb(167,171,221);
+}
+
+@media (max-width:  720px) {
+	.container{
+		width: 500px;
+		background-color: rgb(167,171,221);
+	}
+
+
+	p {
+		width: 300px;
+	}
+}
+
+@media (max-width:  500px) {
+	body{
+		background-color: rgb(167,171,221);
+		width: 300px;
+	}
+}
